@@ -17,4 +17,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag sammakaorz/first-demo-project:$(date +%s)
     - name: docker push
-      run: docker push sammakaorz/first-demo-project:$(date +%s)
+      run: docker push sammakaorz/first-demo-project
